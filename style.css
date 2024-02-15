@@ -12,7 +12,7 @@ html, body{
     height: 100%;
     width: 100%;
     background-color: rgb(116, 185, 216);
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
 }
