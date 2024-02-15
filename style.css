@@ -12,9 +12,9 @@ html, body{
     height: 100%;
     width: 100%;
     background-color: rgb(116, 185, 216);
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #child1 {
     height: 150px;
@@ -30,4 +30,29 @@ html, body{
     height: 150px;
     width: 150px;
     background-color: rgb(41, 0, 154);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
