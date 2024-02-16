@@ -69,3 +69,45 @@ html, body {
     background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
     background-size: cover;
 }
+
+#about {
+    height: 95%;
+    background-color: rgb(244, 238, 233);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 57px;
+}
+
+#about h2 {
+    font-weight: 600;
+    width: 60%;
+    font-size: 85px;
+    line-height: 100%;
+    letter-spacing: -3px;
+    
+}
+
+#about-me {
+    padding: 0px 52px;
+    width: 35%;
+    height: 100%;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-me h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#icons i{
+    font-size: 22px;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
