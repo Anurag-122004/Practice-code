@@ -5,7 +5,7 @@
     font-family: 'Gilroy' , sans-serif;
 }
 
-html, body {
+body {
     height: 100%;
     width : 100%;
 }
@@ -69,4 +69,75 @@ html, body {
     border: none;
     color:white;
     background-color: rgb(255, 48, 48);
+}
+
+#centerh1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+} 
+
+img {
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 18px;
+}
+
+#img1 {
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+h5 {
+    font-size: 15px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+#downarrow {
+    font-size: 25px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+#insta {
+    position: absolute;
+    bottom: 7%;
+    left: 90%;
+    font-size: 17px;
+}
+#facebook {
+    position: absolute;
+    bottom: 7%;
+    left: 92%;
+    font-size: 17px;
+}
+#youtu {
+    position: absolute;
+    bottom: 7%;
+    left: 94%;
+    font-size: 17px;
+}
+h6{
+    position: absolute;
+    bottom: 4%;
+    left: 90%;
 }
