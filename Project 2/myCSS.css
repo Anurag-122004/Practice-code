@@ -104,6 +104,10 @@ html, body {
     font-size: 28px;
 }
 
+#about-me p {
+    font-size: 18px;
+}
+
 #icons i{
     font-size: 22px;
     color: white;
