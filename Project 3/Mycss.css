@@ -2,8 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 html , body {
     height: 100%;
     width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+#navbar {
+    height: 120px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 45px;
+}
+
+
+#navbar-part1 {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+#navbar-part2 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#navbar h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#about {
+    margin-top: 50px;
+    padding: 25px 45px;
+    width: 100%;
+}
+
+#about h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#about h1 {
+    margin-top: 20px;
+    line-height: 120px;
+    font-size: 140px;
+    font-weight: 400;
+    letter-spacing: -5px;
 }
