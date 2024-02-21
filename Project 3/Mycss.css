@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(250, 250, 247);
+    background-color: rgb(241, 241, 238);
 }
 html , body {
     height: 100%;
@@ -93,4 +93,63 @@ html , body {
     height: 3px;
     width: 100px;
     background-color: #000;
+}
+
+#project {
+    gap: 30px;
+    margin-top: 10px;
+    height: 550px;
+    display: flex;
+    width: 100%;
+    padding: 25px 45px;
+    /* background-color: rgb(89, 193, 249); */
+}
+
+#img1 {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 520px;
+    width: 50%;
+}
+
+#img2 {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 520px;
+    width: 50%;
+}
+
+#footer {
+    gap: 30px;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sketch , #frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#footer h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#footer i {
+    font-size: 60px;
+    /* font-weight: 100; */
+}
+
+#footer i:hover {
+    border-radius: 50%;
+    background-color: #000;
+    color: aliceblue;
+}
+
+#footer p{
+    font-size: 20px;
 }
